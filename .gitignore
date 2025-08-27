@@ -1,0 +1,56 @@
+# Entornos virtuales
+venv/
+.env
+.env.*
+
+# Archivos de configuración del sistema
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.swp
+*.swo
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+*.bak
+
+# Archivos de base de datos locales
+*.db
+*.sqlite3
+
+# Archivos de pruebas
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.test
+
+# Archivos de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de Docker
+*.pid
+*.sock
+
+# Archivos de compilación
+build/
+dist/
+*.egg-info/
+
+# Archivos de importación/exportación
+*.csv
+*.json
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Carpeta de datos semilla
+seed_data.py
